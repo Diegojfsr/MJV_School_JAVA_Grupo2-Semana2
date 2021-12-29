@@ -24,10 +24,4 @@
 
 
 <h3>Resultado Esperado:</h3>
-
-<div itemprop="text" class="Box-body p-0 blob-wrapper data type-text  gist-border-0">
-
-      <div class="text-center p-3">
-          <span class="border-wrap"><img src="/digytal-code/java-code/blob/main/challenge/power-classes-project/ficha_profissional.jpg?raw=true" alt="ficha_profissional.jpg"></span>
-      </div>
-  </div>
+(https://raw.githubusercontent.com/digytal-code/java-code/main/challenge/power-classes-project/ficha_profissional.jpg)
