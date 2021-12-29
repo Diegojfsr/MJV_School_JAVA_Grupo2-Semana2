@@ -18,3 +18,11 @@
 
 
 <h3>Durante as aulas, foram abordados os seguintes tópicos:</h3>
+<p>Anotação1</p>
+<p>Anotação2</p>
+<p>Anotação3</p>
+
+
+<h3>Resultado Esperado:</h3>
+
+<span class="border-wrap"><img src="/digytal-code/java-code/blob/main/challenge/power-classes-project/ficha_profissional.jpg?raw=true" alt="ficha_profissional.jpg"></span>
