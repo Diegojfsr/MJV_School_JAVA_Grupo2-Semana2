@@ -28,7 +28,7 @@ public class LeitorInformacoes {
 	}
 	public List<Informacoes> converter (String caminhoArquivo){
 		List<String> registros = ler(caminhoArquivo);
-		List<Informacoes> informacoes = new ArrayList();
+		List<Informacoes> informacoes = new ArrayList<>();
 		for(String linha: registros) {
 			
 			String[] campos=linha.split(";");
