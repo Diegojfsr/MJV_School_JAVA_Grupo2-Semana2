@@ -1,4 +1,4 @@
-package dadosapp.util;
+package fichaprofissional.util;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -9,11 +9,11 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-import dadosapp.model.Informacoes;
-import dadosapp.model.UnidadeFederativa;
+import fichaprofissional.model.Informacoes;
+import fichaprofissional.model.UnidadeFederativa;
 
 public class LeitorInformacoes {
-	private DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+	private DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");//dataconverter = converte o campo datanascimento
 	
 	
 	private List<String> ler(String caminhoArquivo) {

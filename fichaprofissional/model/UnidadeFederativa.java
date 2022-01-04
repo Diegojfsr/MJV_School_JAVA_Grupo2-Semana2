@@ -1,4 +1,4 @@
-package dadosapp.model;
+package fichaprofissional.model;
 
 public enum UnidadeFederativa {
 	  ACRE ("AC"),

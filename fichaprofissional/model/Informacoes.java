@@ -1,7 +1,9 @@
-package dadosapp.model;
+package fichaprofissional.model;
+
 
 import java.time.LocalDate;
 
+//declaração das informações
 public class Informacoes {
 	private String profissao;
 	private String nome;
@@ -14,13 +16,16 @@ public class Informacoes {
 	private String numeroCasa;
 	private String bairro;
 	private String municipio;
-	private UnidadeFederativa uf;
+	private UnidadeFederativa uf;//enum = UnidadeFederativa
 	private String cep; 
 	private String naturalidade;
 	private String pais;
 	private String telefone;
 	private String celular;
 	private String email;
+
+
+//Inicio dos Getteres and Setteres
 	public String getProfissao() {
 		return profissao;
 	}
@@ -129,6 +134,10 @@ public class Informacoes {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
+//Final dos Getteres and Setteres
+
+
 	@Override
 	public String toString() {
 		return "Informacoes [profissao=" + profissao + ", nome=" + nome + ", salarioMinimo=" + salarioMinimo
